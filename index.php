@@ -95,7 +95,7 @@ $(document).ready(function(){
 		  	},
 		});
 	}
-	setInterval (loadLog, 2500);	//Reload file every 2.5 seconds
+	setInterval (loadLog, 250);	//Reload file every .25 seconds
 	
 	//If user wants to end session
 	$("#exit").click(function(){
